@@ -59,6 +59,7 @@ table{
     border-collapse: collapse;
     background-color: #5A6473;
     cursor: pointer;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 td{
@@ -123,4 +124,18 @@ footer{
         padding: 0px;
         opacity: 0;
 	}
+}
+
+@media only screen and (max-width: 340px) {
+    header{
+        font-size: 15px;
+    }
+
+    #d1 > a{
+        font-size: 0.8em;
+    }
+
+    li{
+        font-size: 18px;
+    }
 }
