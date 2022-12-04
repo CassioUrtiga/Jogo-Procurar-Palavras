@@ -1,0 +1,126 @@
+body{
+    background-image: linear-gradient(to top,#5A6473,#732D3F,#2F3840);
+    user-select: none;
+}
+
+header{
+    font-size: 20px;
+    text-shadow: 7px 5px 6px rgba(0, 0, 0, 0.644);
+    background-image: linear-gradient(to bottom,#732D3F,rgba(0, 0, 0, 0.550));
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+}
+
+#d1{
+    display: none;
+    width: 50vw;
+    text-align: center;
+    padding: 20px;
+    margin: 10px auto;
+    font-size: 20px;
+    color: forestgreen;
+    background-image: radial-gradient(#732D3F,rgba(0, 0, 0, 0.500));
+    border-radius: 10px;
+    animation: aumentar 1.3s ease-in-out, pulse 1s infinite;
+}
+
+#d1 a{
+    text-decoration: none;
+    color: #AEB7BF;
+    font-weight: bold;
+    border: 1px solid #AEB7BF;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#d1 a:hover{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.300);
+    background-color: #732D3F;
+    transition: 0.5s;
+}
+
+main{
+    background-color: rgba(0, 0, 0, 0.500);
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+table{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #5A6473;
+    cursor: pointer;
+}
+
+td{
+    width: 8%;
+    border: 1px solid black;
+    color: black;
+    font-family: monospace;
+    font-size: 30px;
+    background-color: transparent;
+}
+
+#d2{
+    width: 19em;
+    background-color: #2F3840;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+    color: #AEB7BF;
+}
+
+li{
+    max-width: 10em;
+    font-size: 23px;
+    border: 1px solid black;
+    padding: 3px;
+    background-color: #732D3F;
+}
+
+footer{
+    background-image: linear-gradient(to top,#732D3F,rgba(0, 0, 0, 0.550));
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+
+.estilo{
+    height: 92px;
+    padding: 5px;
+    text-align: center;
+    color: #D2D6D9;
+}
+
+
+@keyframes pulse{
+	0% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.6);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+@keyframes aumentar{
+    from{
+		font-size: 0px;
+        width: 0px;
+        margin: 0px auto;
+        padding: 0px;
+        opacity: 0;
+	}
+}
