@@ -126,13 +126,13 @@ footer{
 	}
 }
 
-@media only screen and (max-width: 340px) {
+@media only screen and (max-width: 390px) {
     header{
         font-size: 15px;
     }
 
     #d1 > a{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     li{
