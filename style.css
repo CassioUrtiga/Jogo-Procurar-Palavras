@@ -118,7 +118,7 @@ footer{
 
 @keyframes aumentar{
     from{
-		font-size: 0px;
+	font-size: 0px;
         width: 0px;
         margin: 0px auto;
         padding: 0px;
@@ -128,7 +128,7 @@ footer{
 
 @media only screen and (max-width: 390px) {
     header{
-        font-size: 15px;
+        font-size: 14px;
     }
 
     #d1 > a{
@@ -136,6 +136,6 @@ footer{
     }
 
     li{
-        font-size: 18px;
+        font-size: 21px;
     }
 }
